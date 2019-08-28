@@ -62,7 +62,6 @@
 				D7F505172310DEF9006DEE5F /* View */,
 				D7F505182310DF8F006DEE5F /* Supporting Files */,
 				D7F5050B2310DCBA006DEE5F /* Assets.xcassets */,
-				D7F5050D2310DCBA006DEE5F /* LaunchScreen.storyboard */,
 			);
 			path = TaskMaster;
 			sourceTree = "<group>";
@@ -79,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F505082310DCB0006DEE5F /* Main.storyboard */,
+				D7F5050D2310DCBA006DEE5F /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
