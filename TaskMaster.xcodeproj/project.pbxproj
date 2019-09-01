@@ -59,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F505162310DE74006DEE5F /* Controller */,
+				D7F5051D231B911F006DEE5F /* Model */,
 				D7F505172310DEF9006DEE5F /* View */,
 				D7F505182310DF8F006DEE5F /* Supporting Files */,
 				D7F5050B2310DCBA006DEE5F /* Assets.xcassets */,
@@ -89,6 +90,13 @@
 				D7F505102310DCBA006DEE5F /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7F5051D231B911F006DEE5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
