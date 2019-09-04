@@ -7,5 +7,31 @@
 
 class TaskGroupModel
 {
+  private var id : String
   
+  private var title : String
+  
+  private var colorKey : Int
+  
+  init(_ id : String, _ title : String, _ colorKey : Int)
+  {
+    self.id = id
+    self.title = title
+    self.colorKey = colorKey
+  }
+  
+  func getId() -> String
+  {
+    return id
+  }
+  
+  func getTitle() -> String
+  {
+    return title
+  }
+  
+  func getColorKey() -> Int
+  {
+    return colorKey
+  }
 }
