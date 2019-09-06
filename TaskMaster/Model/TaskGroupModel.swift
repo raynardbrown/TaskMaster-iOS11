@@ -34,4 +34,9 @@ class TaskGroupModel
   {
     return colorKey
   }
+  
+  func setColorKey(_ newColorKey : Int) -> Void
+  {
+    self.colorKey = newColorKey
+  }
 }
