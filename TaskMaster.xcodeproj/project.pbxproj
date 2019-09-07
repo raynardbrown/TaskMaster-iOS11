@@ -14,6 +14,7 @@
 		D7F5051A2310E0A4006DEE5F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7F505192310E0A4006DEE5F /* README.md */; };
 		D7F5051C2310E0F4006DEE5F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D7F5051B2310E0F4006DEE5F /* .gitignore */; };
 		D7F5051F231E0256006DEE5F /* TaskGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5051E231E0256006DEE5F /* TaskGroupModel.swift */; };
+		D7F505212324584F006DEE5F /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F505202324584F006DEE5F /* TaskListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D7F505192310E0A4006DEE5F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D7F5051B2310E0F4006DEE5F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D7F5051E231E0256006DEE5F /* TaskGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupModel.swift; sourceTree = "<group>"; };
+		D7F505202324584F006DEE5F /* TaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F5051E231E0256006DEE5F /* TaskGroupModel.swift */,
+				D7F505202324584F006DEE5F /* TaskListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F505212324584F006DEE5F /* TaskListModel.swift in Sources */,
 				D7F5051F231E0256006DEE5F /* TaskGroupModel.swift in Sources */,
 				D7F505052310DCB0006DEE5F /* AppDelegate.swift in Sources */,
 			);
