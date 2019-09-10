@@ -22,4 +22,29 @@ class TaskListModel
     self.taskIndex = taskIndex
     self.title = title
   }
+  
+  func getTaskGroupId() -> String
+  {
+    return self.taskGroupId
+  }
+  
+  func getTaskListId() -> String
+  {
+    return self.taskListId
+  }
+  
+  func getTaskIndex() -> Int
+  {
+    return self.taskIndex
+  }
+  
+  func getTitle() -> String
+  {
+    return self.title
+  }
+  
+  func setTaskIndex(_ taskIndex : Int) -> Void
+  {
+    self.taskIndex = taskIndex
+  }
 }
