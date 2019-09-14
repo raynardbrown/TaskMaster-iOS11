@@ -31,4 +31,69 @@ class TaskListCardModel
     self.cardDetailedDescription = cardDetailedDescription
     self.cardIndex = cardIndex
   }
+  
+  func setTaskGroupId(_ taskGroupId : String) -> Void
+  {
+    self.taskGroupId = taskGroupId;
+  }
+  
+  func getTaskListId() -> String
+  {
+    return taskListId;
+  }
+  
+  func setTaskListId(_ taskListId : String) -> Void
+  {
+    self.taskListId = taskListId;
+  }
+  
+  func getCardId() -> String
+  {
+    return cardId;
+  }
+  
+  func setCardId(_ cardId : String) -> Void
+  {
+    self.cardId = cardId;
+  }
+  
+  func getTaskIndex() -> Int
+  {
+    return taskIndex;
+  }
+  
+  func setTaskIndex(_ taskIndex : Int) -> Void
+  {
+    self.taskIndex = taskIndex;
+  }
+  
+  func getCardTitle() -> String
+  {
+    return cardTitle;
+  }
+  
+  func setCardTitle(_ cardTitle : String) -> Void
+  {
+    self.cardTitle = cardTitle;
+  }
+  
+  func getCardDetailedDescription() -> String
+  {
+    return cardDetailedDescription;
+  }
+  
+  func setCardDetailedDescription(_ cardDetailedDescription : String) -> Void
+  {
+    self.cardDetailedDescription = cardDetailedDescription;
+  }
+  
+  func getCardIndex() -> Int
+  {
+    return cardIndex;
+  }
+  
+  func setCardIndex(_ cardIndex : Int) -> Void
+  {
+    self.cardIndex = cardIndex;
+  }
 }
