@@ -9,6 +9,8 @@ import UIKit
 
 class MainViewController : UIViewController
 {
+  @IBOutlet var taskGroupTableView: UITableView!
+  
   override func viewDidLoad()
   {
     super.viewDidLoad()
