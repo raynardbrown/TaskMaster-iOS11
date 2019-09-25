@@ -87,6 +87,7 @@
 		D7F505172310DEF9006DEE5F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D7F50526233C1149006DEE5F /* Custom Cell */,
 				D7F505082310DCB0006DEE5F /* Main.storyboard */,
 				D7F5050D2310DCBA006DEE5F /* LaunchScreen.storyboard */,
 			);
@@ -109,6 +110,13 @@
 				D7F505202324584F006DEE5F /* TaskListModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D7F50526233C1149006DEE5F /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
