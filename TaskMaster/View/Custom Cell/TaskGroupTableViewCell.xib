@@ -34,6 +34,10 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="taskGroupListItemColorSquare" destination="Tz7-sJ-dON" id="ads-ir-zkU"/>
+                <outlet property="taskGroupListItemName" destination="k7I-rC-r2q" id="2jY-Wy-2P0"/>
+            </connections>
             <point key="canvasLocation" x="26" y="29"/>
         </tableViewCell>
     </objects>
