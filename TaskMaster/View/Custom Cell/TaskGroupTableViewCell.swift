@@ -9,6 +9,9 @@ import UIKit
 
 class TaskGroupTableViewCell : UITableViewCell
 {
+  @IBOutlet var taskGroupListItemColorSquare: UIView!
+  @IBOutlet var taskGroupListItemName: UILabel!
+  
   override func awakeFromNib()
   {
     super.awakeFromNib()
