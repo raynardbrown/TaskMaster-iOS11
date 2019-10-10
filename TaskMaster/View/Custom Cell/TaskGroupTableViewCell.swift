@@ -7,7 +7,8 @@
 
 import UIKit
 
-class TaskGroupTableViewCell : UITableViewCell
+class TaskGroupTableViewCell : UITableViewCell,
+                               Reusable
 {
   @IBOutlet var taskGroupListItemColorSquare: UIView!
   @IBOutlet var taskGroupListItemName: UILabel!
