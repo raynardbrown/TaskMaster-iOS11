@@ -19,6 +19,7 @@
 		D7F5052523309AA6006DEE5F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5052423309AA6006DEE5F /* MainViewController.swift */; };
 		D7F50529233D5C8C006DEE5F /* TaskGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */; };
 		D7F5052A233D5C8C006DEE5F /* TaskGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */; };
+		D7F5052C234D94F2006DEE5F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5052B234D94F2006DEE5F /* Reusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D7F5052423309AA6006DEE5F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupTableViewCell.swift; sourceTree = "<group>"; };
 		D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskGroupTableViewCell.xib; sourceTree = "<group>"; };
+		D7F5052B234D94F2006DEE5F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		D7F50526233C1149006DEE5F /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
+				D7F5052B234D94F2006DEE5F /* Reusable.swift */,
 				D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */,
 				D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */,
 			);
@@ -205,6 +208,7 @@
 				D7F5051F231E0256006DEE5F /* TaskGroupModel.swift in Sources */,
 				D7F505052310DCB0006DEE5F /* AppDelegate.swift in Sources */,
 				D7F5052523309AA6006DEE5F /* MainViewController.swift in Sources */,
+				D7F5052C234D94F2006DEE5F /* Reusable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
