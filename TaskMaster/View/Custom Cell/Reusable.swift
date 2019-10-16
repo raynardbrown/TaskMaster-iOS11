@@ -16,6 +16,7 @@ extension Reusable
 {
   static var reuseIdentifier : String
   {
+    // capital "Self" refers to the class the conforms to this protocol
     return String(describing: Self.self)
   }
 }
