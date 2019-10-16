@@ -20,6 +20,7 @@
 		D7F50529233D5C8C006DEE5F /* TaskGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */; };
 		D7F5052A233D5C8C006DEE5F /* TaskGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */; };
 		D7F5052C234D94F2006DEE5F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5052B234D94F2006DEE5F /* Reusable.swift */; };
+		D7F5052E23558753006DEE5F /* ResuableNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5052D23558753006DEE5F /* ResuableNib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupTableViewCell.swift; sourceTree = "<group>"; };
 		D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskGroupTableViewCell.xib; sourceTree = "<group>"; };
 		D7F5052B234D94F2006DEE5F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		D7F5052D23558753006DEE5F /* ResuableNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResuableNib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F5052B234D94F2006DEE5F /* Reusable.swift */,
+				D7F5052D23558753006DEE5F /* ResuableNib.swift */,
 				D7F50527233D5C8C006DEE5F /* TaskGroupTableViewCell.swift */,
 				D7F50528233D5C8C006DEE5F /* TaskGroupTableViewCell.xib */,
 			);
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F5052E23558753006DEE5F /* ResuableNib.swift in Sources */,
 				D7F50529233D5C8C006DEE5F /* TaskGroupTableViewCell.swift in Sources */,
 				D7F505232328B54F006DEE5F /* TaskListCardModel.swift in Sources */,
 				D7F505212324584F006DEE5F /* TaskListModel.swift in Sources */,
