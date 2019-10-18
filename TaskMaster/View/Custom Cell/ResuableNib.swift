@@ -15,8 +15,9 @@ protocol ResuableNib : Reusable
 
 extension ResuableNib
 {
-  static var nib  : UINib
+  static var nib : UINib
   {
+    // capital "Self" refers to the class the conforms to this protocol
     return UINib(nibName: Self.reuseIdentifier, bundle: nil)
   }
 }
