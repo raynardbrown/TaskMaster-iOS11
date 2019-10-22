@@ -11,6 +11,7 @@ class TaskGroupTableViewCell : UITableViewCell,
                                Reusable,
                                ResuableNib
 {
+  /// The square along with its color that is associated with a task group.
   @IBOutlet var taskGroupListItemColorSquare: UIView!
   @IBOutlet var taskGroupListItemName: UILabel!
   
