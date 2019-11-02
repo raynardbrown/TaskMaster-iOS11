@@ -13,6 +13,8 @@ class TaskGroupTableViewCell : UITableViewCell,
 {
   /// The square along with its color that is associated with a task group.
   @IBOutlet var taskGroupListItemColorSquare: UIView!
+  
+  /// The label that describes the task group.
   @IBOutlet var taskGroupListItemName: UILabel!
   
   override func awakeFromNib()
