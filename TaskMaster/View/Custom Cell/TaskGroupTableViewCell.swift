@@ -7,6 +7,8 @@
 
 import UIKit
 
+/// A cell within the table view that holds the collection of task group items that are displayed
+/// within the main view controller.
 class TaskGroupTableViewCell : UITableViewCell,
                                Reusable,
                                ResuableNib
