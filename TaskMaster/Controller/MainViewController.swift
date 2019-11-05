@@ -11,6 +11,8 @@ class MainViewController : UIViewController
 {
   @IBOutlet var taskGroupTableView: UITableView!
   
+  // TODO: Add floating action button for adding new task groups
+  
   override func viewDidLoad()
   {
     super.viewDidLoad()
