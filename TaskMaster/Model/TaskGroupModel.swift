@@ -13,7 +13,9 @@ class TaskGroupModel
   
   private var colorKey : Int
   
-  init(_ id : String, _ title : String, _ colorKey : Int)
+  init(_ id : String,
+       _ title : String,
+       _ colorKey : Int)
   {
     self.id = id
     self.title = title
